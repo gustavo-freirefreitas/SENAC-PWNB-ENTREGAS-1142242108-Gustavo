@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM E HTML</title>
+</head>
+<body>
+    <input type="text" class=" textocss">
+    <button onclick="recebeentrada()">Receber</button>
+<script> 
+function recebeentrada(){
+var textorecebido = document.querySelector('.textocss').value;
+var recebefilho = textorecebido.childnodes;
+alert(textorecebido+recebefilho)
+}
+</script>
+
+</body>
+</html>
+
+
+
+
